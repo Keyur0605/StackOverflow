@@ -1,0 +1,29 @@
+.formText{
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.9em;
+  
+}
+
+.active{
+  color: #1976d2 !important;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+}
+.profile-card{
+  position: absolute;
+    border: 1px solid black;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-right: auto;
+    background: rgb(248, 246, 246);
+    padding: 35px;
+    right: 36px;
+    z-index: 900;
+}
+
+.profile-card ul{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
